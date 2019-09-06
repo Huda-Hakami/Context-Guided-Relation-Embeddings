@@ -8,8 +8,13 @@ These codes require tensorflow, sklearn and numpy.
 This software includes the work that is distributed in the Apache License 2.0.
 # Usage
 1. Run the self-supervised learning of our CGRE model:
+
 $ cd Context_Guided_RelRep
+
 $ python train.py
+
 2. Run the unsupervised NLRA model:
+
 $ cd NLRA
+
 $ python train.py

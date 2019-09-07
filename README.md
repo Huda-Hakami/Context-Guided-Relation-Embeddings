@@ -6,6 +6,14 @@ It also implement neural latent relational analysis (NLRA) for word-pair represe
 We used python 3.6.1.
 These codes require tensorflow, sklearn and numpy.
 This software includes the work that is distributed in the Apache License 2.0.
+# Data
+This project contains the following data files:
+- Pretrained word-pairs Embeddings: the folder includes pre-trained word-pair embeddings for SemEval-2012 Task2. Embeddings for four different methods are available:
+        - SemEval_CGRE_Gold.npy
+        - SemEval_CGRE_Proxy.npy
+        - SemEval_MnnPL.npy
+        - SemEval_NLRA.npy
+        
 # Usage
 Please follow the process below.
 

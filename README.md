@@ -23,7 +23,7 @@ Please follow the process below.
 
     $ python train.py
 
-#Cite
+# Cite
 If you use the code or the proposed method, please kindly cite the following paper: 
 
 Huda Hakami and Danushka Bollegala: Context-guided Self-Supervised Relation Embeddings Proc. of the 16th International Conference of the Pacific Association for Computational Linguistics (PACLING), October, 2019.

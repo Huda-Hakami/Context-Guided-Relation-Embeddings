@@ -14,9 +14,11 @@ This project contains the following data files:
         
         2. SemEval_CGRE_Proxy.npy: self-supervised method trained on pseudo labels of DiffVec in DiffVec_Pseudo_Label.txt
         
-        3. SemEval_MnnPL.npy
+        3. SemEval_MnnPL.npy: no contextual patterns are used to train Multi-class neural netword penultimate layer model. 
         
-        4. SemEval_NLRA.npy
+        4. SemEval_NLRA.npy: Neural Latent Relational Analysis word-pair embeddings 
+        
+- Read_PreTrained_WordPairs.py: a python script to read aforementioned pre-trained word-pairs embeddings. 
         
 # Usage
 Please follow the process below.

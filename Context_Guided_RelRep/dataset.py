@@ -84,7 +84,7 @@ class DataSet():
 	def read_proxy_labelled_pairs(self):
 		self.Train_Pairs=set()
 		self.Pair2Rel={}
-		with open("../DiffVec_Pseudo_Labelled.txt") as pairs:
+		with open("../DiffVec_Pseudo_Label.txt") as pairs:
 			for line in pairs:
 				if line.startswith(":"):
 					rel=line.strip().split(':')[1]

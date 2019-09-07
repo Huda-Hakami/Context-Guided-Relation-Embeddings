@@ -8,9 +8,9 @@ These codes require tensorflow, sklearn and numpy.
 This software includes the work that is distributed in the Apache License 2.0.
 # Data
 This project contains the following data files:
-- Pretrained word-pairs Embeddings: the folder includes pre-trained word-pair embeddings for SemEval-2012 Task2. Embeddings for four different methods are available:
+- Pretrained word-pairs Embeddings: the folder includes pre-trained word-pair embeddings for SemEval-2012 Task2. Embeddings for four different methods are available as follows:
 
-        1. SemEval_CGRE_Gold.npy
+        1. SemEval_CGRE_Gold.npy: supervised model trained on gold relation labels for DiffVec data in DiffVec_Pairs file
         
         2. SemEval_CGRE_Proxy.npy
         

@@ -1,4 +1,4 @@
-# Context-Guided-Relation-Embeddings
+# CGRE: Context-Guided-Relation-Embeddings
 This directory contains datasets and implementations of context-guided relation embedding (CGRE) proposed in our paper: Context-guided Self-Supervised Relation Embeddings.
 
 It also implement neural latent relational analysis (NLRA) for word-pair representations, a method proposed by Washio and Kato, 2018 in their paper: Neural Latent Relational Analysis to Capture Lexical Semantic Relations in a Vector Space.
@@ -22,3 +22,8 @@ Please follow the process below.
     $ cd NLRA
 
     $ python train.py
+
+#Cite
+If you use the code or the proposed method, please kindly cite the following paper: 
+
+Huda Hakami and Danushka Bollegala: Context-guided Self-Supervised Relation Embeddings Proc. of the 16th International Conference of the Pacific Association for Computational Linguistics (PACLING), October, 2019.

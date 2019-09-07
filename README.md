@@ -19,6 +19,15 @@ This project contains the following data files:
         4. SemEval_NLRA.npy: Neural Latent Relational Analysis word-pair embeddings 
         
 - Read_PreTrained_WordPairs.py: a python script to read aforementioned pre-trained word-pairs embeddings. 
+- DiffVec_Pairs:
+- DiffVec_Pseudo_Label.txt:
+- SemEval_Pairs.txt: 
+- Relational Patterns: is a folder for relational patterns of DiffVec training dataset. The folder includes the following files:
+
+        1. Patterns_Xmid5Y:
+        
+        2. Patterns_Xmid5Y_PerPair:
+
         
 # Usage
 Please follow the process below.

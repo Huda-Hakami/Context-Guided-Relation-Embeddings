@@ -9,9 +9,13 @@ This software includes the work that is distributed in the Apache License 2.0.
 # Data
 This project contains the following data files:
 - Pretrained word-pairs Embeddings: the folder includes pre-trained word-pair embeddings for SemEval-2012 Task2. Embeddings for four different methods are available:
+
         1. SemEval_CGRE_Gold.npy
+        
         2. SemEval_CGRE_Proxy.npy
+        
         3. SemEval_MnnPL.npy
+        
         4. SemEval_NLRA.npy
         
 # Usage

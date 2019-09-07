@@ -19,9 +19,9 @@ This project contains the following data files:
         4. SemEval_NLRA.npy: Neural Latent Relational Analysis word-pair embeddings 
         
 - Read_PreTrained_WordPairs.py: a python script to read aforementioned pre-trained word-pairs embeddings. 
-- DiffVec_Pairs:
-- DiffVec_Pseudo_Label.txt:
-- SemEval_Pairs.txt: 
+- DiffVec_Pairs: a text file of word-pairs in DiffVec dataset with gold relaiton labels used to train CGRE_Gold
+- DiffVec_Pseudo_Label.txt: a text file of word-pairs in DiffVec dataset with pseudo relaiton labels used to train CGRE_Proxy. The labels are obtained by applying k-mean clustering with k=50. For more details, please refer to the paper. 
+- SemEval_Pairs.txt: a text file of word-pairs in SemEval-2012 Task2 test data. 
 - Relational Patterns: is a folder for relational patterns of DiffVec training dataset. The folder includes two pickle files as follows:
 
         1. Patterns_Xmid5Y: a dictionary that maps pattern ids to patterns  

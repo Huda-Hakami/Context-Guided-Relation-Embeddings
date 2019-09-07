@@ -22,11 +22,11 @@ This project contains the following data files:
 - DiffVec_Pairs:
 - DiffVec_Pseudo_Label.txt:
 - SemEval_Pairs.txt: 
-- Relational Patterns: is a folder for relational patterns of DiffVec training dataset. The folder includes the following files:
+- Relational Patterns: is a folder for relational patterns of DiffVec training dataset. The folder includes two pickle files as follows:
 
-        1. Patterns_Xmid5Y:
+        1. Patterns_Xmid5Y: a dictionary that maps pattern ids to patterns  
         
-        2. Patterns_Xmid5Y_PerPair:
+        2. Patterns_Xmid5Y_PerPair: a dictionary that maps word-pairs to list of pattern ids. 
 
         
 # Usage

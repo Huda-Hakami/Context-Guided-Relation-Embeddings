@@ -11,12 +11,12 @@ This software includes the work that is distributed in the Apache License 2.0.
 
 1. To learn CGRE for SemEval-2012 Task2 word-pairs, run the self-supervised learning of our CGRE model as follows:
 
-  $ cd Context_Guided_RelRep
+    $ cd Context_Guided_RelRep
 
-  $ python train.py
+    $ python train.py
 
 2. To learn NLRA for SemEval-2012 Task2 word-pairs,run the unsupervised NLRA model as follows:
 
-  $ cd NLRA
+    $ cd NLRA
 
-  $ python train.py
+    $ python train.py

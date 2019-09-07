@@ -7,13 +7,15 @@ We used python 3.6.1.
 These codes require tensorflow, sklearn and numpy.
 This software includes the work that is distributed in the Apache License 2.0.
 # Usage
-1. Run the self-supervised learning of our CGRE model:
+1. download GloVe 300-d from, zip the file and put glove.6B.300d.zip into the main folder /Context-Guided-Relation-Embeddings
+
+1. To learn CGRE for SemEval-2012 Task2 word-pairs, run the self-supervised learning of our CGRE model as follows:
 
 $ cd Context_Guided_RelRep
 
 $ python train.py
 
-2. Run the unsupervised NLRA model:
+2. To learn NLRA for SemEval-2012 Task2 word-pairs,run the unsupervised NLRA model as follows:
 
 $ cd NLRA
 
